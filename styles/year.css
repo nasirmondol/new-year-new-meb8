@@ -34,6 +34,83 @@ body {
     border-radius: 5px;
     width: 100px;
     color: white;
-    font-weight: 500;
-    height: 34px;
+    font-weight: 600;
+    height: 40px;
+}
+
+
+/* Failure section style added */
+span {
+    color: blue;
+    font-weight: 800;
+    margin-right: 4px;
+}
+
+.failure-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 134px;
+}
+
+.failure-container img {
+    width: 50%;
+}
+
+.failure-text {
+    width: 50%;
+}
+
+.failure-head {
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.failure-des {
+    display: flex;
+    width: 416px;
+    flex-direction: column;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Plans section styled */
+.plan-container {
+    text-align: center;
+}
+
+.varius-plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.varius-plans img {
+    width: 92px;
+}
+
+.plane-header {
+    text-align: center;
+    margin-bottom: 0;
+    color: #151414;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.plan-des {
+    text-align: center;
+    margin-top: 0;
+    color: #737272;
+    font-size: 16px;
+}
+
+.plane-head {
+    margin-bottom: 55px;
 }
