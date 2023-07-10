@@ -114,3 +114,30 @@ span {
 .plane-head {
     margin-bottom: 55px;
 }
+
+/* Positive mind set section */
+.positive-mind {
+    background-image: url("../images/gradient1.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+    width: 90%;
+    justify-content: end;
+    align-items: center;
+    padding: 50px;
+    height: 300px;
+    margin-top: 130px;
+    background-position: center;
+}
+
+.mind-header {
+    margin-bottom: 0;
+    margin-left: 64px;
+    width: 459px;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+.img-btn{
+    margin-top: 10px;
+}
