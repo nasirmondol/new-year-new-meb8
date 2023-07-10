@@ -1,0 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: left;
+}
+
+.header {
+    text-align: end;
+    align-items: center;
+    padding: 200px;
+    margin-left: 600px;
+    margin-right: 0px;
+}
+
+.hading {
+    margin-bottom: 0px;
+    flex-direction: column;
+    color: #151414;
+    text-align: right;
+    font-size: 46px;
+    font-weight: 800;
+    width: 325px;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    font-weight: 500;
+    height: 34px;
+}
